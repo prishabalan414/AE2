@@ -1,6 +1,7 @@
 include csv
 
 penguins = load-table:
+  num :: Number,
   species :: String,
   island :: String,
   bill_length_mm :: Number,
