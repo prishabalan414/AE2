@@ -1,7 +1,6 @@
 include csv
 
 penguins = load-table:
-  num :: Number,
   species :: String,
   island :: String,
   bill_length_mm :: Number,
@@ -10,6 +9,6 @@ penguins = load-table:
   body_mass_g	:: Number,
   sex	:: String,
   year :: Number
-  source: csv-table-url("https://raw.githubusercontent.com/prishabalan414/NU-London/fundies-scratch/penguins.csv", default-options)
+  source: csv-table-url("https://raw.githubusercontent.com/prishabalan414/AE2/penguins.csv", default-options)
     
 end
